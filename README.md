@@ -1,1 +1,2 @@
-# fantasy_football_scoring
+## The prupose of this project is to discover trends in a 10 team fantasy football dynasty league over a two year period. the project hopes to discover the trends between winning and losing teams, how much luck is involved in the league, and the probablility of winning for each score over a two year period. Only data from the regualar season was used. The league's regular season is 14 games, which means each team has played 28 total games over a two year period. 
+## The league has a mean score of 186.17 points per game, a median score of 184.45 points per week, and a standard deviation of 30.00895 points. We now know that our data is essentially normally distributed given how close the mean and median score are to one another. 
