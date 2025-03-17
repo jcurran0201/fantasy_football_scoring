@@ -4,6 +4,6 @@
 ## Bar plot of who has scored the most points over the two year period 
 ## ![Bar chart of who has scored the most points over the course of the 2 seasons](https://github.com/user-attachments/assets/62651394-4dcd-44ab-b67c-60543df4eeb2) 
 ## Win probability based on points scored 
-## ![Win probability plot](https://github.com/user-attachments/assets/92fe7031-1c1e-428d-8083-a52fcb890ef5)
+# ![Win probability plot](https://github.com/user-attachments/assets/92fe7031-1c1e-428d-8083-a52fcb890ef5)
 
 ## I am still working on the remainder of this project and will post the code once it's completed
