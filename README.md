@@ -21,4 +21,4 @@
 ## <img width="280" alt="Samples 7 and 8" src="https://github.com/user-attachments/assets/b005ac7d-71a6-4c58-9846-674d42c350a1" />
 
 ## <img width="257" alt="Samples 9 and 10" src="https://github.com/user-attachments/assets/c1165185-04de-406c-883e-aee790943bd7" />
-
+## The clash between these two titan teams over the course of 10 seasons was heavily in the favor of 2024 Josh. Over the course of the 10 seasons Josh managed an 86-54 record, which comes out to a .614 winning percentage. In 3 seasons, Josh won 11 games and in another 3 seasons he won 9 games. In 2 of the seasons 2023 Matt and 2024 Josh managed to finish 7-7 angainst one another while 2023 Matt pulled off 8 win seasons twice. Based on these simulations it's clear that despite that 2023 Matt won a championship and had an incredible seasoon, 2024 Josh was on a different level. 
