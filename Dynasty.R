@@ -161,42 +161,12 @@ for (i in 1:10) {
   print(random_sample)
   cat("\n") 
 }
-#Win probability better or equal to 50% 
-high_win_prob <- data_frame %>% filter(win_probability >=0.5) 
-low_win_prob <- data_frame %>% filter(win_probability <=0.5) 
-
-#How Lucky have you been
-against_the_odds <- data_frame %>% filter(result==1 &win_probability<0.35) 
-luckiest_teams <- against_the_odds %>% group_by(teams) %>% 
-  summarise(count=n()) %>% rename(lucky_wins=count) %>%  
-  mutate(factor=teams,levels=custom_order) 
-luckiest_teams <- luckiest_teams[ -c(3:4) ]
-despite_the_odds <- data_frame %>% filter(result==0 &win_probability>0.65) 
-unluckiest_teams <- despite_the_odds %>% group_by(teams) %>% 
-  summarise(count=n())%>% rename(unlucky_loss=count)%>%  
-  mutate(factor = factor(teams, levels = custom_order)) 
-unluckiest_teams<- unluckiest_teams[ -c(3)] 
-##add this row to the second to last row
-new_row <- data.frame(teams = "Jake", unlucky_loss = 0) 
-unluckiest_teams <- rbind(unluckiest_teams, new_row)  
-unluckiest_teams <- unluckiest_teams[match(custom_order, unluckiest_teams$teams), ]
-luck<- cbind(luckiest_teams,unluckiest_teams)
-luck<- luck[ -c(3)]  
-luck <- luck %>% mutate(cumulative_luck = lucky_wins-unlucky_loss) %>% arrange(desc(cumulative_luck))
-ggplot(data = luck, aes(x = teams, y = cumulative_luck, fill = cumulative_luck > 0)) + 
-  geom_col() + 
-  scale_fill_manual(values = c("TRUE" = "orange", "FALSE" = "blue"), 
-                    name = "Cumulative Luck", 
-                    labels = c("Negative", "Positive")) +
-  labs(title = "Cumulative Luck by Team", x = "Teams", y = "Cumulative Luck") +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))  
 #Run a t-test to find the statistical significance between the scores in wins and losses
-winners <- data_frame %>% filter(result==1) %>% pull(score) %>% as.numeric() 
-losers <- data_frame %>% filter(result==0) %>% pull(score) %>%as.numeric()
+winners <- data_frame %>% filter(result=='WIN') %>% pull(score) %>% as.numeric() 
+losers <- data_frame %>% filter(result=="LOSE") %>% pull(score) %>%as.numeric()
 t.test(winners,losers)
 boxplot(winners, losers, 
         names = c("Winners", "Losers"),
         main = "Boxplot of Winners vs Losers",
         col = c("lightblue", "lightgreen"),
         ylab = "Scores") 
-
