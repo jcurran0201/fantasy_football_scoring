@@ -3,7 +3,7 @@
 ## ![histogram of scores](https://github.com/user-attachments/assets/6572090e-f1b8-4098-8c93-ee6cde3c1f45) 
 ## Bar plot of who has scored the most points over the two year period 
 ## ![Bar chart of who has scored the most points over the course of the 2 seasons](https://github.com/user-attachments/assets/62651394-4dcd-44ab-b67c-60543df4eeb2)  
-
+## Combined standings over the two seasons combined
 ## <img width="330" alt="Screenshot 2025-03-22 at 1 15 00 PM" src="https://github.com/user-attachments/assets/67c53d48-0f68-4c3c-bd36-b9ad32a0191c" />
 
 ## Win probability based on points scored 
