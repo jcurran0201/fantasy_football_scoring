@@ -1,4 +1,6 @@
-## The prupose of this project is to discover trends in a 10 team fantasy football dynasty league over a two year period. the project hopes to discover the trends between winning and losing teams, how much luck is involved in the league, and the probablility of winning for each score over a two year period. Only data from the regualar season was used. The league's regular season is 14 games, which means each team has played 28 total games over a two year period. 
+## The prupose of this project is to discover trends in a 10 team fantasy football dynasty league over a two year period. the project hopes to discover the trends between winning and losing teams, how much luck is involved in the league, and the probablility of winning for each score over a two year period. Only data from the regualar season was used. The league's regular season is 14 games, which means each team has played 28 total games over a two year period.  
+## This project only took points scored into account. It does not take injuries, trades, BYE weeks, etc into account. 
+
 ## The league has a mean score of 186.17 points per game, a median score of 184.45 points per week, and a standard deviation of 30.00895 points. We now know that our data is essentially normally distributed given how close the mean and median score are to one another.  
 ## ![histogram of scores](https://github.com/user-attachments/assets/6572090e-f1b8-4098-8c93-ee6cde3c1f45) 
 ## Bar plot of who has scored the most points over the two year period 
@@ -22,3 +24,16 @@
 
 ## <img width="257" alt="Samples 9 and 10" src="https://github.com/user-attachments/assets/c1165185-04de-406c-883e-aee790943bd7" />
 ## The clash between these two titan teams over the course of 10 seasons was heavily in the favor of 2024 Josh. Over the course of the 10 seasons Josh managed an 86-54 record, which comes out to a .614 winning percentage. In 3 seasons, Josh won 11 games and in another 3 seasons he won 9 games. In 2 of the seasons 2023 Matt and 2024 Josh managed to finish 7-7 angainst one another while 2023 Matt pulled off 8 win seasons twice. Based on these simulations it's clear that despite that 2023 Matt won a championship and had an incredible seasoon, 2024 Josh was on a different level. 
+
+## In every league, someone must finish in last, unfortunately in both seasons, team Evan has finished in last place and has scored the least amount of points. As I simulated 10 seasons of the best teams playing, I also simulated the worst team over the course of 10 seasons against the rest of the league.  
+
+## <img width="287" alt="Seasons 1 and 2" src="https://github.com/user-attachments/assets/19b3b5be-0c48-4e06-8928-8ab42e630102" />
+
+## <img width="285" alt="Seasons 3 and 4" src="https://github.com/user-attachments/assets/767a8152-5445-4a21-ba9a-8d519635ca8a" />
+
+## <img width="276" alt="Seasons 5 and 6" src="https://github.com/user-attachments/assets/2ce11607-3f68-4aaf-aeee-7aaf051eee40" />
+
+## <img width="279" alt="Seasons 7 and 8" src="https://github.com/user-attachments/assets/63a67bcd-6a9d-4c58-9a61-2b3287fb0330" />
+
+## <img width="284" alt="Seasons 9 and 10" src="https://github.com/user-attachments/assets/a8eedef8-27c4-48b1-b0fd-cfea106dfae7" />
+## Evan's matchups over the course of 10 seasons was heavily in the favor of his opponents. Over the course of the 10 seasons Evan had a 53-87 record, which comes out to a .378 winning percentage. In Evan's three worst seasons, he managed 3 wins and 4 wins twice. He pulled off 5 wins twice and managed to win 6 games in 3 simulations. In a miraculous fashion, Evan did pull off a .500 record twice. over the course of 10 seasons, he averaged roughly a 5-9 record. It is worth noting that in samples 2 and 3 where Evan managed to pull off a .500 record that he did have a significant amount of luck in regards to how his opponents performed. If his two seasons of a .500 record are not taken into account, His record was 39-73 with a .348 win percentage while averaging only 3.9 wins per season. With a lot of luck on Evan's side, he could manage a .500 record, but it's certianly noticable that Evan does not stack up well against the rest of the league 
