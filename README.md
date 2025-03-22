@@ -8,5 +8,17 @@
 
 ## Win probability based on points scored 
 # ![Win probability plot](https://github.com/user-attachments/assets/92fe7031-1c1e-428d-8083-a52fcb890ef5)
+## it was found that scoring 150 points or less gives a team less than a 20% chance to win. There is a steep increase in win probability from 150 points scored or less until a teams scores 170 points. From 170 points scored-200 points scored the win probability increases steadlily. Once a team scores 200 points, they have a win proability of about 75% and the win probability has steep increaes as points scored goes beyond 200 points 
 
-## I am still working on the remainder of this project and will post the code once it's completed
+# 2023 Matt vs 2024 Josh 
+## in 2023, Matt was the league champion while leading the league in points scored and wins. In 2024, Josh was by far the best team in the league and had a 13-1 record in the regular season, unfortunately for Josh he ran into a red hot team in the playoffs and despite his team putting up a valiant performance, he fell short of winning a championship. Despite not winning a championship, his greatness did not go unnoticed and I decided to run a simulation of these two titans to see which team had the better year. I ran a simulation of 10 14 game seasons to determine who had the better team.  
+## <img width="265" alt="Samples 1 and 2" src="https://github.com/user-attachments/assets/bf564c0c-2321-40d8-ae96-b298288332cc" />
+
+## <img width="249" alt="Samples 3 and 4" src="https://github.com/user-attachments/assets/61786342-1b7a-4494-96b0-f6e9ca05eaf2" />
+
+## <img width="259" alt="Samples 5 and 6" src="https://github.com/user-attachments/assets/ef362532-2c9c-4f4d-9a31-f5d6c2ea2bb7" />
+
+## <img width="280" alt="Samples 7 and 8" src="https://github.com/user-attachments/assets/b005ac7d-71a6-4c58-9846-674d42c350a1" />
+
+## <img width="257" alt="Samples 9 and 10" src="https://github.com/user-attachments/assets/c1165185-04de-406c-883e-aee790943bd7" />
+
