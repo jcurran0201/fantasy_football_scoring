@@ -41,7 +41,6 @@
 ## Evan's matchups over the course of 10 seasons was heavily in the favor of his opponents. Over the course of the 10 seasons Evan had a 53-87 record, which comes out to a .378 winning percentage. In Evan's three worst seasons, he managed 3 wins and 4 wins twice. He pulled off 5 wins twice and managed to win 6 games in 3 simulations. In a miraculous fashion, Evan did pull off a .500 record twice. over the course of 10 seasons, he averaged roughly a 5-9 record. It is worth noting that in samples 2 and 3 where Evan managed to pull off a .500 record that he did have a significant amount of luck in regards to how his opponents performed. If his two seasons of a .500 record are not taken into account, His record was 39-73 with a .348 win percentage while averaging only 3.9 wins per season. With a lot of luck on Evan's side, he could manage a .500 record, but it's certianly noticable that Evan does not stack up well against the rest of the league 
 
 # T-test winning scores vs losing scores 
-## <img width="508" alt="t-test" src="https://github.com/user-attachments/assets/52a5e5b8-b954-45df-9e75-7ab4d93e97aa" />
+## <img width="508" alt="t-test" src="https://github.com/user-attachments/assets/52a5e5b8-b954-45df-9e75-7ab4d93e97aa" />  
+ ![boxplot](https://github.com/user-attachments/assets/dd873ed0-4a0e-4ba0-b0df-ccdb542accf9)
 ## based on the findings of the t-test, we know that there is a major statistical signifgance between the mean scores of winning teams and losing teams. Since our p-value is so small, we can reject our null hypothesis that there is not signigfance between winning and losing scores. We also have a very large t-statistic telling us that there is a signifgant difference between the winning and losing groups. The mean of the winning group and the losing group had a difference of almost 23 points.  
-
-## Boxplot of samples from t-test:  ![boxplot](https://github.com/user-attachments/assets/dd873ed0-4a0e-4ba0-b0df-ccdb542accf9)
