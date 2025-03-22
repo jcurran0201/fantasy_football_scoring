@@ -2,7 +2,10 @@
 ## The league has a mean score of 186.17 points per game, a median score of 184.45 points per week, and a standard deviation of 30.00895 points. We now know that our data is essentially normally distributed given how close the mean and median score are to one another.  
 ## ![histogram of scores](https://github.com/user-attachments/assets/6572090e-f1b8-4098-8c93-ee6cde3c1f45) 
 ## Bar plot of who has scored the most points over the two year period 
-## ![Bar chart of who has scored the most points over the course of the 2 seasons](https://github.com/user-attachments/assets/62651394-4dcd-44ab-b67c-60543df4eeb2) 
+## ![Bar chart of who has scored the most points over the course of the 2 seasons](https://github.com/user-attachments/assets/62651394-4dcd-44ab-b67c-60543df4eeb2)  
+
+## <img width="330" alt="Screenshot 2025-03-22 at 1 15 00 PM" src="https://github.com/user-attachments/assets/67c53d48-0f68-4c3c-bd36-b9ad32a0191c" />
+
 ## Win probability based on points scored 
 # ![Win probability plot](https://github.com/user-attachments/assets/92fe7031-1c1e-428d-8083-a52fcb890ef5)
 
